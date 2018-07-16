@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BondYieldCalculator.Lib", "BondYieldCalculator\BondYieldCalculator.Lib.csproj", "{00FFA63C-9117-49F8-AF3D-D493D82744F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BondYieldCalculator.Wpf", "BondYieldCalculator.Wpf\BondYieldCalculator.Wpf.csproj", "{EA22F96C-2E42-4F5E-9F02-AF0A3176270D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BondYieldCalculator.Tests", "BondYieldCalculator.Tests\BondYieldCalculator.Tests.csproj", "{4DB9011C-BB38-416D-8901-FF2C894C6BDE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00FFA63C-9117-49F8-AF3D-D493D82744F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00FFA63C-9117-49F8-AF3D-D493D82744F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00FFA63C-9117-49F8-AF3D-D493D82744F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00FFA63C-9117-49F8-AF3D-D493D82744F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA22F96C-2E42-4F5E-9F02-AF0A3176270D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA22F96C-2E42-4F5E-9F02-AF0A3176270D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA22F96C-2E42-4F5E-9F02-AF0A3176270D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA22F96C-2E42-4F5E-9F02-AF0A3176270D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DB9011C-BB38-416D-8901-FF2C894C6BDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DB9011C-BB38-416D-8901-FF2C894C6BDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DB9011C-BB38-416D-8901-FF2C894C6BDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DB9011C-BB38-416D-8901-FF2C894C6BDE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

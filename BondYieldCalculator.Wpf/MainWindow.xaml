@@ -1,0 +1,30 @@
+﻿<mah:MetroWindow x:Class="BondYieldCalculator.Wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BondYieldCalculator.Wpf"
+        xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
+        xmlns:calculator="clr-namespace:BondYieldCalculator.Wpf.Calculator"
+        mc:Ignorable="d"
+        Title="Bond Yield Calculator" Height="475" Width="450" TitleCharacterCasing="Normal"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"    
+        GlowBrush="{DynamicResource AccentColorBrush}"
+                       BorderThickness="2" 
+        local:ViewModelLocator.AutoWireViewModel="True">
+    <Grid>
+        <mah:MetroAnimatedTabControl 
+            mah:TabControlHelper.Underlined="SelectedTabItem"
+            mah:TabControlHelper.Transition="Up"
+            SelectedIndex="{Binding SelectedTabIndex, Mode=TwoWay}"
+            Margin="0">
+            <mah:MetroTabItem Header="Price">
+                <calculator:PriceView Height="Auto" Width="Auto"/>
+            </mah:MetroTabItem>
+            <mah:MetroTabItem Header="Yield">
+                <calculator:YieldView Height="Auto" Width="Auto"/>
+            </mah:MetroTabItem>
+        </mah:MetroAnimatedTabControl>
+    </Grid>
+</mah:MetroWindow>

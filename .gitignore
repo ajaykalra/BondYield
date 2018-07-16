@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/BondYieldCalculator/obj/Debug
+/BondYieldCalculator/bin/Debug
+/BondYieldCalculator.Tests/bin/Debug
+/BondYieldCalculator.Tests/obj/Debug
+/BondYieldCalculator.Wpf/bin/Debug
+/BondYieldCalculator.Wpf/obj/Debug
+/packages
+/.vs/BondYield/v14/.suo
+/Logs
