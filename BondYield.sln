@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BondYieldCalculator.Lib", "BondYieldCalculator\BondYieldCalculator.Lib.csproj", "{00FFA63C-9117-49F8-AF3D-D493D82744F8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BondYieldCalculator.Lib", "BondYieldCalculator.Lib\BondYieldCalculator.Lib.csproj", "{00FFA63C-9117-49F8-AF3D-D493D82744F8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BondYieldCalculator.Wpf", "BondYieldCalculator.Wpf\BondYieldCalculator.Wpf.csproj", "{EA22F96C-2E42-4F5E-9F02-AF0A3176270D}"
 EndProject

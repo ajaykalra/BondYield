@@ -136,7 +136,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BondYieldCalculator\BondYieldCalculator.Lib.csproj">
+    <ProjectReference Include="..\BondYieldCalculator.Lib\BondYieldCalculator.Lib.csproj">
       <Project>{00ffa63c-9117-49f8-af3d-d493d82744f8}</Project>
       <Name>BondYieldCalculator.Lib</Name>
     </ProjectReference>
